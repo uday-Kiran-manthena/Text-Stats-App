@@ -1,0 +1,129 @@
+/* General body styling */
+body {
+  font-family: "Roboto", sans-serif; /* Adding a modern and clean font */
+  background-color: #f0f2f5; /* Light background for the app */
+  color: #333; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Wrapper styling */
+.text-stats-container {
+  background-color: #ffffff; /* White background for content container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+}
+
+/* Header styling */
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Textarea styling */
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  resize: none; /* Disable resizing */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+}
+
+/* Input field styling */
+input {
+  margin: 10px 5px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 150px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Statistics styling */
+.stats {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Styling for the highlighted text */
+.highlighted-text {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e6f7ff; /* Soft blue background */
+  border: 1px solid #b3d4fc;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Highlighted word styling */
+mark {
+  background-color: #ffeb3b; /* Bright yellow for highlighting */
+  color: black;
+  font-weight: bold;
+}
+
+/* Replace section styling */
+.replace-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Spread input fields and button */
+  flex-wrap: wrap;
+}
+
+.replace-section input {
+  width: 150px;
+}
+
+.replace-section button {
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .replace-section {
+    flex-direction: column;
+  }
+
+  .replace-section input,
+  .replace-section button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
