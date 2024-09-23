@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uday-Kiran-manthena/Text-Stats-App.git/static/css/main.41e64a31.css",
+    "main.js": "/uday-Kiran-manthena/Text-Stats-App.git/static/js/main.59218c5f.js",
+    "static/js/453.96c1cf1f.chunk.js": "/uday-Kiran-manthena/Text-Stats-App.git/static/js/453.96c1cf1f.chunk.js",
+    "index.html": "/uday-Kiran-manthena/Text-Stats-App.git/index.html",
+    "main.41e64a31.css.map": "/uday-Kiran-manthena/Text-Stats-App.git/static/css/main.41e64a31.css.map",
+    "main.59218c5f.js.map": "/uday-Kiran-manthena/Text-Stats-App.git/static/js/main.59218c5f.js.map",
+    "453.96c1cf1f.chunk.js.map": "/uday-Kiran-manthena/Text-Stats-App.git/static/js/453.96c1cf1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41e64a31.css",
+    "static/js/main.59218c5f.js"
+  ]
+}
